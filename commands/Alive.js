@@ -65,7 +65,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *FLASH-MD by France King is alive*`
+ *ŋąɖɛɛŋ 🇧​​🇴​​🇹​ by Nadeen Poorna is alive*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -96,7 +96,7 @@ else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
       await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
-         repondre("don't do fake things :)")
+         repondre("Wellcome to Nadeen Bot")
      }
  } else {
 
