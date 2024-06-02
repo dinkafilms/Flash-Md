@@ -68,11 +68,11 @@ france({ nomCom: "owner", categorie: "General", reaction: "👨‍💻" }, async
   }
 });
 
-france({ nomCom: "developer", categorie: "General", reaction: "🐐" }, async (dest, zk, commandeOptions) => {
+france({ nomCom: "developer", categorie: "General", reaction: "👨‍💻" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "𝗡𝗔𝗗𝗘𝗘𝗡 𝗣𝗢𝗢𝗥𝗡𝗔", numero: "7114513196" },
+      { nom: "𝗡𝗔𝗗𝗘𝗘𝗡 𝗣𝗢𝗢𝗥𝗡𝗔", numero: "94711451319" },
       { nom: "᚛𝗡𝗔𝗗𝗘𝗘𝗡𝗣𝗢𝗢𝗥𝗡𝗔᚜", numero: "94711451319" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
