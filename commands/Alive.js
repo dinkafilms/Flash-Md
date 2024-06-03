@@ -95,7 +95,7 @@ else {
     } else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
-      await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
+      await   repondre("NADEEN_POORNA BOT IS ALIVE. Type to *.menu* ");
          repondre("Wellcome to Nadeen Bot")
      }
  } else {
