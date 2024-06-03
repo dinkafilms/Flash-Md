@@ -49,7 +49,7 @@
 
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
       "value":" https://telegra.ph/file/554d2867d1ed2e2146551.mp4",
-      "required":false
+      "required":true
 
      },
     "PUBLIC_MODE":
