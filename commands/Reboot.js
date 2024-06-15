@@ -35,12 +35,12 @@ const{repondre,ms,dev,superUser}=com;
 
   if(!superUser)
   {
-    return repondre("This command is for owner only");
+    return repondre("තොට මේක කරන්න බෑ😂 මේක පුළුවන් *@Nadeen* ට  විතරයි ");
   }
 
   const {exec}=require("child_process")
 
-    repondre("*Rebooting...*");
+    repondre("*ŋąɖɛɛŋ-🇧​​🇴​​🇹​ is Rebooting...*");
 
   exec("pm2 restart all");
   
