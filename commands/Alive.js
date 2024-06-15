@@ -95,8 +95,12 @@ else {
     } else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
-      await   repondre("NADEEN_POORNA BOT IS ALIVE. Type to *.menu* ");
-         repondre("Wellcome to Nadeen Bot")
+      await   repondre("NADEEN's BOT IS ALIVE. Type to *.menu* ");
+         repondre("Hey, I'm *NADEEN-BOT* , created by Nadeen Poorna ✨🍂
+
+I'm always here for help you. 😇 Love you forever ♥
+
+")
      }
  } else {
 
