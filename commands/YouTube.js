@@ -36,7 +36,7 @@ france({
 
 
 
-*_Powered by ©France King._*`
+*_Powered by ©Nadeen poorna._*`
        }
 
       
@@ -66,16 +66,16 @@ france({
       });
 
       fileStream.on('error', (error) => {
-        console.error('Erreur lors de l\'écriture du fichier audio :', error);
-        repondre('Une erreur est survenue lors de l\'écriture du fichier audio.');
+        console.error('Erreur lors de l\'එහෙම එකක් නෑ බං 😕 :', error);
+        repondre('Une erreur est survenue lors de l\'එහෙම සින්දුවක් නෑ බං 😕.');
       });
     } else {
-      repondre('Aucune vidéo trouvée.');
+      repondre('එහෙම එකක් නෑ බං 😕.');
     }
   } catch (error) {
-    console.error('Erreur lors de la recherche ou du téléchargement de la vidéo :', error);
+    console.error('වීඩියෝව සෙවීමේ හෝ බාගැනීමේ දෝෂයකි :', error);
     
-    repondre('Une erreur est survenue lors de la recherche ou du téléchargement de la vidéo.');
+    repondre('වීඩියෝව සෙවීමේදී හෝ බාගත කිරීමේදී දෝෂයක් ඇති විය.');
   }
 });
 
@@ -103,7 +103,7 @@ france({
 
       let InfoMess = {
         image: { url: videos[0].thumbnail },
-        caption: `*​ŋąɖɛɛŋ ​🇧​​🇴​​🇹​ VIDEO DOWNLOADER*\n\n*Title :* ${Element.title}
+        caption: `*​ŋąɖɛɛŋ BOT VIDEO DOWNLOADER*\n\n*Title :* ${Element.title}
 *Duration :* ${Element.timestamp}
 *Video Url:* ${Element.url}
 
@@ -130,18 +130,18 @@ france({
 
       fileStream.on('finish', () => {
         // Envoi du fichier vidéo en utilisant l'URL du fichier local
-        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*FLASH-MD*", gifPlayback: false }, { quoted: ms });
+        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*ŋąɖɛɛŋ 🇧​​🇴​​🇹​*", gifPlayback: false }, { quoted: ms });
       });
 
       fileStream.on('error', (error) => {
-        console.error('Erreur lors de l\'écriture du fichier vidéo :', error);
-        repondre('Une erreur est survenue lors de l\'écriture du fichier vidéo.');
+        console.error('වීඩියෝ ගොනුව ලිවීමේදී දෝෂයක් ඇති විය. :', error);
+        repondre('වීඩියෝ ගොනුව ලිවීමේදී දෝෂයක් ඇති විය.');
       });
     } else {
       repondre('No video found');
     }
   } catch (error) {
-    console.error('Erreur lors de la recherche ou du téléchargement de la vidéo :', error);
-    repondre('Une erreur est survenue lors de la recherche ou du téléchargement de la vidéo.');
+    console.error('වීඩියෝ ගොනුව ලිවීමේදී දෝෂයක් ඇති විය.:', error);
+    repondre('වීඩියෝ ගොනුව ලිවීමේදී දෝෂයක් ඇති විය.');
   }
 });
