@@ -55,7 +55,7 @@ france({ nomCom: "owner", categorie: "General", reaction: "👨‍💻" }, async
     const vcard =
         'BEGIN:VCARD\n' + // metadata of the contact card
         'VERSION:3.0\n' +
-        'FN:' + conf.OWNER_NAME + '\n' + // full name
+        'FN:' + conf.OWNER_NAME + '\n' + // Nadeen Poorna
         'ORG:undefined;\n' + // the organization of the contact
         'TEL;type=CELL;type=VOICE;waid=' + conf.NUMERO_OWNER + ':+' + conf.NUMERO_OWNER + '\n' + // WhatsApp ID + phone number
         'END:VCARD';
