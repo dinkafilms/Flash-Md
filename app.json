@@ -71,11 +71,11 @@
     "SESSION_ID":
     {
       "description":"put your session ID, AMKE SURE IT STARTS WITH NADEEN-MD-WA-BOT;;;=>",   
-      "value":"",
+      "value":"DId1QayS#szwnz9YoB7DyuRZ6_xC5UcK3kIvAEmQr6zefezlDnTc",
       "required": true
 
     },
-    "OWNER_NAME":
+    "OWNER_NAME": 
     {
 
     "desc": "Your Name",
